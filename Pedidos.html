@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+
+    <link rel="icon" href="logo.png">
+    <style>
+        body {
+            margin: 0vw;
+            padding: 0vw;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            background-color: whitesmoke;
+        }
+
+
+       
+
+  header {
+
+            height: 20vh;
+            padding-top: 1vh;
+            padding-left: 2vw;
+            border-bottom: solid 0.2vw;
+            margin-bottom: 5vw;
+            
+
+        }
+
+        .img1 {
+            max-height: 8vw;
+            margin-left: 5vw;
+        }
+
+        td>p {
+            color: #a3a3a3;
+            font-size: 1.2vw;
+            padding-top: 0vw;
+            margin-top: 0vw;
+
+
+        }
+
+        header>table {
+            width: 95%;
+
+        }
+
+        header>table td:first-of-type {
+            width: 21vw;
+
+
+
+        }
+
+        .menu {
+            background-color: darkred;
+            width: 9vw;
+            height: 3.2vw;
+            color: white;
+            float: left;
+            text-align: center;
+            border: 0.1vw solid #750000;
+
+
+
+        }
+
+        .menu:first-of-type {
+            border-top-left-radius: 1vw;
+            border-bottom-left-radius: 1vw;
+            margin-left: 4vw;
+
+
+
+        }
+
+        .menu:last-of-type {
+            border-top-right-radius: 1vw;
+            border-bottom-right-radius: 1vw;
+
+
+
+
+        }
+
+
+        td>div>p {
+            text-align: center;
+            font-size: 1vw;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        header h1 {
+            color: black;
+            font-family: 'Alex Brush', cursive;
+            font-weight: bold;
+            font-size: 5vw;
+            margin: 0vw;
+        }
+
+        footer {
+
+            background-color: darkred;
+            height: 8vh;
+            margin-top: 3vh;
+            clear: both;
+            padding-top: 1vh;
+            padding-left: 14vw;
+            padding-right: 9.4vw;
+           
+
+        }
+
+        footer>p {
+            color: whitesmoke;
+            font-size: 1.1vw;
+            padding-left: 1vw;
+            float: left;
+        }
+
+        footer>div>p {
+            color: whitesmoke;
+            font-size: 1.1vw;
+            padding-left: 1vw;
+
+            text-align: right;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        form {
+         
+            width: 50vw;
+            height: auto;
+            margin-left:26vw;
+            font-size: 1.5vw;
+            margin-bottom: 5vw;
+            
+            
+            
+        }
+    
+        label{
+            width: 2vw;
+            
+        
+            
+            
+        }
+        legend{
+            font-weight: bold;
+        
+            
+        }
+        input{
+            margin-top: 1vw;
+            
+        }
+        .form-control{
+            margin-top: 1vw;
+            margin-left: 1vw;
+        }
+       
+    </style>
+</head>
+<main>
+
+    <body>
+        <header>
+            <table>
+
+                <tr>
+                    <td>
+
+                        <img class="img1" src="logo.png">
+                    </td>
+                    <td>
+                        <h1>La Pizza</h1>
+                    </td>
+                    <td>
+                        <div class="menu">
+                            <p><a HREF="Home.html">Home</a></p>
+                        </div>
+                        <div class="menu">
+                            <p>História</p>
+                        </div>
+                        <div class="menu">
+                            <p><a HREF="Preços.html">Preços</a></p>
+                        </div>
+                        <div class="menu">
+                            <p><a HREF="Eventos.html">Eventos</a></p>
+                        </div>
+                        <div class="menu">
+                            <p><a HREF="Suporte.html">Suporte</a></p>
+                        </div>
+
+                    </td>
+
+                </tr>
+            </table>
+
+        </header>
+        <form class="form-horizontal">
+
+
+
+            <legend>Peça sua Pizza!!</legend>
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Entrega</label>
+                    <div class="col-md-4">
+                        <label class="radio-inline" for="radios-0">
+                            <input type="radio" name="entrega" id="radios-0" checked="checked">
+                            Retirada no restaurante
+                        </label>
+                        <label class="radio-inline" for="radios-1">
+                            <input type="radio" name="entrega" id="radios-1">
+                            Delivery
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+
+
+
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Escolha seu Sabor</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="radios-0">
+                                <input type="radio" name="sabor" id="radios-0" checked="checked">
+                                Calabresa
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-1">
+                                <input type="radio" name="sabor" id="radios-1">
+                                Quatro Queijos
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-2">
+                                <input type="radio" name="sabor" id="radios-2">
+                                Mista
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Escolha o Tamanho</label>
+                    <div class="col-md-4">
+                        <label class="radio-inline" for="radios-0">
+                            <input type="radio" name="tamanho" id="radios-0" checked="checked">
+                            Pequena
+                        </label>
+                        <label class="radio-inline" for="radios-1">
+                            <input type="radio" name="tamanho" id="radios-1">
+                            Média
+                        </label>
+                        <label class="radio-inline" for="radios-2">
+                            <input type="radio" name="tamanho" id="radios-2">
+                            Grande
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Escolha a Borda</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="radios-0">
+                                <input type="radio" name="borda" id="radios-0" checked="checked">
+                                Cheddar
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-1">
+                                <input type="radio" name="borda" id="radios-1">
+                                Catupiry
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+            <div class="form-group">
+  <label class="col-md-4 control-label" for="selectmultiple">Quantidade</label>
+  <div class="col-md-4">
+    <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
+      <option value="">1</option>
+      <option value="">2</option>
+      <option value="">3 (Máx)</option>
+    </select>
+  </div>
+</div>
+            </fieldset>
+           
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="checkboxes">Bebida (opcional)</label>
+                    <div class="col-md-4">
+                        <div class="checkbox">
+                            <label for="checkboxes-0">
+                                <input type="checkbox" name="bebida" id="checkboxes-0">
+                                Coca-Cola 2L
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="checkboxes-1">
+                                <input type="checkbox" name="bebida" id="checkboxes-1">
+                                Fanta 2L
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="checkboxes-2">
+                                <input type="checkbox" name="bebida" id="checkboxes-2">
+                                Sprite 2L
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="checkboxes-3">
+                                <input type="checkbox" name="bebida" id="checkboxes-3">
+                                Guaraná Antartica 2L
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="checkboxes-4">
+                                <input type="checkbox" name="bebida" id="checkboxes-4">
+                                Suco Del Valle 1,5L
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Endereço de Entrega (Delivery)</label>
+                    <div class="col-md-8">
+                        <input id="textinput" name="textinput" type="text" placeholder="Insira aqui o seu endereço em caso de delivery" class="form-control input-md">
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textarea">Observações (opcional)</label>
+                    <div class="col-md-4">
+                        <textarea class="form-control" id="textarea" name="textarea"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="button1id"></label>
+                    <div class="col-md-8">
+                        <button id="button1" name="button1" class="btn btn-success">Fazer Pedido</button>
+                        <button id="button2" name="button2" class="btn btn-danger">Limpar Campos</button>
+                    </div>
+                </div>
+
+            </fieldset>
+
+        </form>
+
+
+
+
+        <footer>
+            <p>Copyright © 2018 - All Rights Reserved </p>
+            <div>
+                <p>Desenvolvido por Rodrigo da Silva</p>
+            </div>
+
+        </footer>
+
+    </body>
+
+</main>
+
+</html>
